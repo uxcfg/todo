@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Todo</title>
+	</head>
+	<body>
+		<main class="main">
+			<div class="container">
+				
+
+				<div class="main__wrap">
+					<h1 class="main__title">ToDo</h1>
+					<ul class="main__list list__start" id="list">
+						<li id="start">List of tasks is empty</li>
+					</ul>
+
+					<div class="task__wrap">
+						<!-- <div class="task__title">Добавить новую задачу</div> -->
+
+						<div class="form__wrap">
+							<form class="task">
+								<input
+									type="text"
+									id="form__input"
+									class="task__input"
+									placeholder="Enter your task"
+								/>
+								<small class="task__note"
+									>Ну давай воткни сюда свою задачу.</small
+								>
+
+								<button class="task__btn" id="form__btn" type="submit" value="">
+									Add task
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>
